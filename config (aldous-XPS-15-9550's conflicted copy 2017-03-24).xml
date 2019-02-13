@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.innerorbitstudios.nuggetToss"
+    versionCode = "10"
+    version     = "0.0.2" >
+
+  <name>Nugget Toss</name>
+  <description>
+      Me encanta!.
+  </description>
+  <author href="https://www.innerorbitstudios.com" email="ed@innerorbitstudios.com">
+      ED
+  </author>
+
+  <access origin="*"/>
+  <plugin name="cordova-plugin-whitelist" source="npm"/>
+
+  <!-- all platforms -->
+  <preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="orientation" value="portrait" />
+
+</widget>
